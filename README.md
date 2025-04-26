@@ -94,15 +94,6 @@ Example CSV:
 
 ---
 
-## 🔮 Future Enhancements
-
-- Keyword customization by users (upload your own keyword list)
-- Sentence-level risk scoring
-- Generate automated audit risk reports (PDF export)
-- User authentication and file history management
-
----
-
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
