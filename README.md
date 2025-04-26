@@ -54,16 +54,15 @@ fraud-risk-analyzer/
 
 ---
 
-## 🖥️ Screenshots
+## 📈 Results
+When you run the application and upload a document for analysis:
 
-> 📸 Add screenshots here after running your app!
+- The document's text will be displayed with risk-related keywords highlighted in distinct pastel colors, based on the selected risk categories.
+- A visual legend will be presented, mapping each color to its respective risk category and listing the associated keywords.
+- You will be able to download a Word document containing the highlighted text for offline review or audit purposes.
+- A keyword occurrence report will be generated in CSV format, showing the number of times each keyword appeared in the document.
 
-Example:
-- Uploading a file and selecting risk categories
-- Highlighted document preview
-- Visual legend
-- Download highlighted Word document
-- Download CSV keyword occurrence report
+These outputs help streamline document review, making fraud detection, compliance verification, and audit planning significantly faster and more efficient.
 
 ---
 
