@@ -2,7 +2,7 @@
 
 **Fraud Risk Analyzer** is a Streamlit-based application that analyzes uploaded documents (.txt, .docx, .pdf) to automatically detect and highlight fraud-related keywords.  
 
-It helps internal audit teams, compliance officers, and risk analysts quickly identify potential fraud, corruption, bribery, and contract risks within unstructured documents.
+Designed for **audit teams**, this tool leverages **Natural Language Processing (NLP)** and **machine learning techniques such as classification** to accelerate detection of potential fraud, corruption, bribery, and contract risks within unstructured documents.
 
 ---
 
