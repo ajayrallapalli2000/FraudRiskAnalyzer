@@ -63,11 +63,13 @@ When you run the application and upload a document for analysis:
 - Downloads are generated for:
   - A Word document containing all highlighted content
   - A CSV keyword report listing detected terms and frequency
+
 These outputs help streamline document review, making fraud detection, compliance verification, and audit planning significantly faster and more efficient.
 
 ---
 
-🧠 Technologies & Techniques Used
+## 🧠 Technologies & Techniques Used
+
 - Python, Streamlit, docx2txt, PyMuPDF, NLTK
 - NLP for keyword extraction
 - Machine learning techniques such as classification for structured fraud risk identification
