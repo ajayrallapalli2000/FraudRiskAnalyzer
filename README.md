@@ -57,12 +57,22 @@ fraud-risk-analyzer/
 ## 📈 Results
 When you run the application and upload a document for analysis:
 
-- The document's text will be displayed with risk-related keywords highlighted in distinct pastel colors, based on the selected risk categories.
-- A visual legend will be presented, mapping each color to its respective risk category and listing the associated keywords.
-- You will be able to download a Word document containing the highlighted text for offline review or audit purposes.
-- A keyword occurrence report will be generated in CSV format, showing the number of times each keyword appeared in the document.
-
+- The app processes and highlights relevant fraud-related keywords using predefined keyword lists and classification logic
+- The text is rendered with color-coded highlights, based on selected risk categories
+- A visual legend displays color-category-keyword mapping
+- Downloads are generated for:
+  - A Word document containing all highlighted content
+  - A CSV keyword report listing detected terms and frequency
 These outputs help streamline document review, making fraud detection, compliance verification, and audit planning significantly faster and more efficient.
+
+---
+
+🧠 Technologies & Techniques Used
+- Python, Streamlit, docx2txt, PyMuPDF, NLTK
+- NLP for keyword extraction
+- Machine learning techniques such as classification for structured fraud risk identification
+- Color-based category mapping
+- Dynamic multi-category selection and document parsing
 
 ---
 
